@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.service.ambibright" name="AmbiBright" version="0.0.1" provider-name="nmorel">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="ambibright.py" start="login"></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">XBMC addon to control Adalight system.</summary>
+    <platform>all</platform>
+  </extension>
+</addon>
